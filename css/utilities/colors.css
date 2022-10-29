@@ -1,4 +1,8 @@
-:root{
+:root {
   --neutral-color: #FFFFFF;
   --button-color: #ff6500;
+}
+
+.neutral-color {
+  color: var(--neutral-color);
 }
