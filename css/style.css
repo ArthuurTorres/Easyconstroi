@@ -3,6 +3,7 @@
 
 /* Utilidades */
 
-@import "./utilits/colors";
-@import "./utilits/buttons.css";
+@import "./utilities/colors.css";
+@import "./utilities/button.css";
+@import "./utilities/letters.css"
 
