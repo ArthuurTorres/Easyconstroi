@@ -1,6 +1,8 @@
-:root{
-  --var-neutral-color: #FFFFFF;
-}
+@import "./reset.css";
+@import "./components/navbar.css";
 
-@import url("./reset.css");
-@import url("./components/navbar.css");
+/* Utilidades */
+
+@import "./utilits/colors";
+@import "./utilits/buttons.css";
+
