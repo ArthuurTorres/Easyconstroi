@@ -1,0 +1,16 @@
+.welcome{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+
+}
+
+.welcome p{
+  margin-top: 0.5rem;
+  
+}
+
+.welcome-img{
+  max-width: 100%;
+}
