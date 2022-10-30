@@ -24,8 +24,8 @@
 
 .catalog{
   transition: 0.3s;
-  border-top: solid 2px;
-  border-bottom: solid 2px;
+  border-top: solid 0.1rem;
+  border-bottom: solid 0.1rem;
   padding: 0.5rem;
 }
 

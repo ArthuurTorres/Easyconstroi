@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import "./components/navbar.css";
 @import "./components/welcome.css";
+@import "./components/navhouse.css";
+
 /* Utilidades */
 
 @import "./utilities/colors.css";
