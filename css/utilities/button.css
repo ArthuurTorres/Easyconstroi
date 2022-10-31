@@ -15,3 +15,7 @@
 .links:hover{
   text-decoration: underline;
 }
+
+.dif a{
+  border-radius: 0px;
+}

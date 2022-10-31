@@ -1,7 +1,13 @@
 @import "./reset.css";
+
+/* Home */
+
 @import "./components/navbar.css";
 @import "./components/welcome.css";
 @import "./components/navhouse.css";
+@import "./components/cardplan.css";
+@import "./components/wppbanner.css";
+@import "./components/types-project.css";
 
 /* Utilidades */
 
