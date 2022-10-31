@@ -1,0 +1,31 @@
+.benefits-container{
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.benefits-container h2{
+  padding-bottom: 1.2rem;
+}
+
+.benefits-content{
+  text-align: center;
+  display: flex;
+}
+
+.benefits-content p{
+  padding-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.benefits-content img{
+  width: 150px;
+  height: 150px;
+}
+
+.benefits-content a:hover{
+  color: var(--button-color);
+}
+
+
