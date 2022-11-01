@@ -5,8 +5,20 @@
   padding-top: 10rem;
 }
 
+.feedback-content {
+  border-left: solid 2px var(--button-color);
+  border-radius: 90px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  border-top: solid 2px var(--button-color);
+  display: flex;
+  border-right: solid 2px var(--button-color);
+  padding-right: 2rem;
+}
+
 .feedback-content h2{
   padding-bottom: 2rem;
+  padding-top: 4rem;
 }
 
 .feedback-container img{
@@ -15,8 +27,5 @@
 }
 
 .feedback-bar{
-  background: var(--button-color);
-  padding: 1.3rem;
-  margin-top: 4rem;
-  border: solid 1px rgb(207, 192, 192);
+  border-top: solid 2px var(--button-color);
 }
