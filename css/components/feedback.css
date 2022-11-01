@@ -1,0 +1,22 @@
+.feedback-container{
+  padding-left: 8rem;
+  padding-right: 8rem;
+  display: flex;
+  padding-top: 10rem;
+}
+
+.feedback-content h2{
+  padding-bottom: 2rem;
+}
+
+.feedback-container img{
+  max-width: max-content;
+  padding-bottom: 3rem;
+}
+
+.feedback-bar{
+  background: var(--button-color);
+  padding: 1.3rem;
+  margin-top: 4rem;
+  border: solid 1px rgb(207, 192, 192);
+}

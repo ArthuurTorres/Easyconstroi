@@ -1,9 +1,10 @@
 .footer-container{
-  background: rgb(55, 55, 55);
+  background: var(--button-color);
   padding-left: 8rem;
   padding-right: 8rem;
   padding-top: 4rem;
-  text-align: left
+  text-align: left;
+  border: solid 1px rgb(207, 192, 192);
 }
 
 .space{
@@ -43,6 +44,7 @@
 .footer-content img{
   width: 290px;
   height: 67px;
+  margin-top: 1.2rem;
 }
 
 .footer-details li{
@@ -50,15 +52,23 @@
 }
 
 .footer-details a:hover{
-  color: var(--button-color)
+  text-decoration: solid 1px underline;
 }
 
 .footer-midia a{
-  display: inline-block;
-  padding-right: 1rem; 
+  display: inline;
+  margin-right: 1rem;
+}
+
+.footer-midia a:hover{
+  text-decoration: none;
+}
+
+.footer-midia a svg:hover{
+  border: solid 1px var(--neutral-color);
+  border-radius: 10px;
 }
 
 .footer-span{
   height: 40px;
-
 }
