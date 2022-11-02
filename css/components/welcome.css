@@ -1,9 +1,27 @@
-.welcome-container{
+.welcome-panel {
+  background-image: url("./../../images/banner-archshop.webp");
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.welcome-panel-content {
+  padding: 5rem;
+  color: #FFFFFF;
+}
+
+.welcome-panel-content>h1 {
+  margin-bottom: 2rem;
+}
+
+.welcome-container {
   margin-left: 6rem;
   margin-right: 6rem;
   margin-top: 3rem;
 }
-.welcome{
+
+.welcome {
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
@@ -11,25 +29,25 @@
 }
 
 
-.welcome p{
+.welcome p {
   margin-top: 0.5rem;
   letter-spacing: 0.1ch;
   margin-bottom: 2.0rem;
 }
 
-.welcome-img{
+.welcome-img {
   max-width: 100%;
   margin-right: 2rem;
 }
 
-.catalog{
+.catalog {
   transition: 0.3s;
   border-top: solid 0.1rem;
   border-bottom: solid 0.1rem;
   padding: 0.5rem;
 }
 
-.catalog:hover{
+.catalog:hover {
   color: var(--button-color);
   transition: 0.3s;
 }
