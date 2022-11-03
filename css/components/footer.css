@@ -1,4 +1,4 @@
-.footer-container{
+.footer-container {
   background: var(--button-color);
   padding-left: 8rem;
   padding-right: 8rem;
@@ -7,12 +7,12 @@
   border: solid 1px rgb(207, 192, 192);
 }
 
-.space{
-  padding-right: 4rem;
-  padding-left: 4rem;
+.space {
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 
-.footer-content{
+.footer-content {
   color: var(--neutral-color);
   display: flex;
   border-right: solid 1px var(--neutral-color);
@@ -23,52 +23,55 @@
   padding-top: 0.32rem;
 }
 
-.footer-details{
+.footer-details {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
 }
 
-.footer-contact{
+.footer-contact {
   padding-top: 1.1rem;
 }
 
-.footer-details h2{
+.footer-details h2 {
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
   display: flex;
 }
 
-.footer-details p{
+.footer-details p {
   max-width: 70ch;
 }
 
-.footer-content img{
+.footer-content img {
   width: 290px;
   height: 67px;
   margin-top: 1.2rem;
 }
 
-.footer-details li{
+.footer-details li {
   padding-bottom: 0.75rem;
 }
 
-.footer-details a:hover{
+.footer-details a:hover {
   text-decoration: solid 1px underline;
 }
 
-.footer-midia a{
+.footer-midia a {
   display: inline;
   margin-right: 1rem;
 }
 
-.footer-midia a:hover{
+.footer-midia a:hover {
   text-decoration: none;
 }
 
-.footer-midia a svg:hover{
+.footer-midia a svg:hover {
   border: solid 1px var(--neutral-color);
   border-radius: 10px;
 }
 
-.footer-span{
+.footer-span {
   height: 40px;
 }
