@@ -12,7 +12,11 @@
 @import "./components/footer.css";
 @import "./components/feedback.css";
 
-/* Utilidades */
+/* Projects */
+
+@import "./components/projects/projects.css";
+
+/* Utilities */
 
 @import "./utilities/colors.css";
 @import "./utilities/button.css";

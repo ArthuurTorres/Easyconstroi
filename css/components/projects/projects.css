@@ -1,0 +1,30 @@
+#banner-project{
+  background-image: url(../../../images/banner_todos_projetos.webp);
+  background-repeat: no-repeat;
+  height: 46vh;
+}
+
+#welcome-details{
+  background-image: linear-gradient(var(--button-color), var(--button-color));
+}
+
+#welcome-details nav{
+  background: black;
+}
+
+#welcome-content{
+  background-image: linear-gradient(#000000, rgb(0, 0, 0, 0));
+}
+
+
+.project-buttons{
+  padding-top: 2rem;
+  display: flex;
+  gap: 4rem;
+  text-align: left;
+  padding-left: 10rem;
+}
+
+.project-buttons input{
+  padding-left: 1rem;
+}

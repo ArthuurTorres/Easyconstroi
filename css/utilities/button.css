@@ -19,3 +19,9 @@
 .dif a{
   border-radius: 0px;
 }
+
+.project-bt{
+  border: solid 2px gray;
+  border-radius: 15px;
+  padding: 0.25rem 2rem 0.25rem 2rem;
+}
