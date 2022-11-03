@@ -1,32 +1,35 @@
-.wpp-banner{
-  padding-top: 2.95rem;
+.wpp-banner {
+  padding: 3rem;
   position: relative;
+  background-image: url('../../images/bg-wpp.jpg');
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
 }
 
-.wpp-text{
+.wpp-text {
   display: inline-block;
-  position: absolute;
   text-align: right;
   bottom: 20px;
   right: 290px;
   top: 85px;
 }
 
-.wpp-text span{
+.wpp-text span {
   display: grid;
 }
 
-.wpp-contact{
+.wpp-contact {
   display: inline-block;
-  position: absolute;
-  text-align: center;
+  text-align: right;
   bottom: 25px;
   right: 320px;
   top: 235px;
   color: rgb(64 195 81);
 }
 
-.wpp-contact:hover{
+.wpp-contact:hover {
   text-decoration: 2.5px solid underline;
 }
-
